@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(3, 0, 5);
+    color: rgb(126, 89, 89);
+}
+
+#contain{
+    height: 100vh;
+    color: rgb(78, 25, 201);
+}
+
+.main{
+    width: 1300px;
+    height: 250px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,  rgba(0,0,0,0.5)50%),url(badge.png);
+    padding: 20px;
+    margin: 5px;
+    border: 15px;
+}
+.logo{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    padding: auto;
+    color: antiquewhite;
+}
+
+.homp{
+    width: 100%;
+    height: 50vh;
+    background-image: url(th21.jpg);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 30px;
+    background-color:rgba(3, 3, 3, 0.356) ;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+p{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin: 10px;
+    color: bisque;
+    font-style: inherit;
+}
+
+span{
+    color: yellow;
+    font-style: italic;
+
+}
+span:hover{
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+.icon{
+    width: 60vw;
+    font-weight: bolder;
+    float: right;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+ul a{
+    text-decoration: none;
+    color: white;
+    padding-right: 80px;
+    font-size: 20px;
+}
+
+li a::after{
+    display: block;
+    width: 100%;
+    position: absolute;
+    background-color: pink;
+    margin: -1px;
+}
